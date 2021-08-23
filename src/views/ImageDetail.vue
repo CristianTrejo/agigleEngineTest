@@ -1,9 +1,7 @@
 <template lang="html">
       <v-overlay>
         <div class="img-container">
-          <panZoom>
-            <img :src="image.full_picture" class="img" >
-          </panZoom>
+          <img :src="image.full_picture" class="img" />
         </div>
         <v-btn
             icon
